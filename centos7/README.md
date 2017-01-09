@@ -1,10 +1,8 @@
 # (your-team)-provisioner
-===
 
 "(your-team)-provisioner" is a provisioning tool to set up for (product-name).
 
 ## HOW TO PROVISION
----
 
 Do
 
