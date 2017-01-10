@@ -1,0 +1,32 @@
+{
+    "users": [
+        {
+            "name": "deploy-rpa",
+            "uid": 2001,
+            "gid": "500",
+            "directory": "/home/deploy-rpa"
+        },
+        {
+            "name": "cron-rpa",
+            "uid": 2002,
+            "gid": "500",
+            "directory": "/home/cron-rpa"
+        }
+    ],
+    "anyenv": {
+        "user":          "root",
+        "repository":    "https://github.com/riywo/anyenv.git",
+        "install_dir":   "/usr/local/anyenv",
+        "shell_profile": "/etc/profile.d/anyenvrc.sh"
+    },
+    "plenv": {
+        "version": "5.24.0"
+    },
+    "ndenv": {
+        "version": "v4.4.5"
+    },
+    "postfix": {
+        "relayhost":   "mail.staff.researchpanelasia.com",
+        "mynetworks":  "127.0.0.0/8, 10.0.0.0/8"
+    }
+}
