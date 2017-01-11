@@ -1,11 +1,10 @@
 .PHONY: bundle-install xxx-web
 
-xxx-web:
+intage-web:
 	itamae local \
-		--node-json=nodes/xxx/web.json \
+		--node-json=nodes/intage/web.json \
 			roles/common/base.rb \
-			roles/common/util.rb \
 			roles/common/developer-tools.rb \
 			roles/common/web.rb \
-			roles/xxx/app.rb \
-			roles/xxx/db-client.rb
+			roles/intage/app.rb \
+			roles/intage/db-client.rb

@@ -1,18 +1,4 @@
 {
-    "users": [
-        {
-            "name": "deploy-rpa",
-            "uid": 2001,
-            "gid": "500",
-            "directory": "/home/deploy-rpa"
-        },
-        {
-            "name": "cron-rpa",
-            "uid": 2002,
-            "gid": "500",
-            "directory": "/home/cron-rpa"
-        }
-    ],
     "anyenv": {
         "user":          "root",
         "repository":    "https://github.com/riywo/anyenv.git",
