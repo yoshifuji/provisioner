@@ -6,6 +6,6 @@
   package pkg
 end
 
-service "ntp" do
+service "ntpd" do
   action [:enable, :stop, :start]
 end

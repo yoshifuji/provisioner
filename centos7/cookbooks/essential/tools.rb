@@ -2,11 +2,8 @@
   git
   jq
   screen
-  sqlite3
-  supervisor
   tmux
   tree
-  valgrind
   vim
   whois
   zip

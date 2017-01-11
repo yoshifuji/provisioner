@@ -1,8 +1,8 @@
-.PHONY: bundle-install xxx-web
+.PHONY: bundle-install intage-staff
 
-intage-web:
+intage-staff:
 	itamae local \
-		--node-json=nodes/intage/web.json \
+		--node-json=nodes/intage/staff.json \
 			roles/common/base.rb \
 			roles/common/developer-tools.rb \
 			roles/common/web.rb \
